@@ -1,0 +1,10 @@
+Employee={"Name":"John","Age":29,"Salary":25000,"Company":"GOOGLE"}
+print(type(Employee))
+print(("printing Employee data..."))
+print("Enter the details of the new employee...")
+Employee["Name"]=input("Name:")
+Employee["Age"]=int(input("Age:"))
+Employee["Salary"]=int(input("Salary:"))
+Employee["Company"]=input("Company:")
+print("printing employee updated data...")
+print(Employee)
